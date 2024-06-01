@@ -8,8 +8,8 @@ const monthStart = dayjs().startOf("month").format("YYYY-MM-DD");
 const today = dayjs().format("YYYY-MM-DD");
 const now = dayjs().format("YYYYMMDDHHmmss");
 
-// 本日の日付：2024-06-01
+// 本日の日付が2024/06/02の場合
 console.log(month); // 202406
 console.log(monthStart); // 2024-06-01
-console.log(today); // 2024-06-01
-console.log(now); // 20240601095256
+console.log(today); // 2024-06-02
+console.log(now); // 20240602101000
